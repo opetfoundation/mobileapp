@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">OpetBot</string>
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">eCommerce</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <!--Facebook-->
+    <string name="facebook_app_id">327735757708749</string>
+    <string name="fb_login_protocol_scheme">fb327735757708749</string>
+    <!--Google plus integration strings-->
+    <string name="logout">Logout</string>
+    <string name="loginText">Please login with your Google Account</string>
+
+    <string name="non_empty_query">Query should not be empty</string>
+    <string name="title_activity_revision_module">RevisionModule</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Power functions strings-->
+    <string name="quiz">~quiz</string>
+    <string name="uni">~uni</string>
+    <string name="me">~me</string>
+    <string name="mute">~mute</string>
+    <string name="help">~help</string>
+
+    <!--Country code registration-->
+    <string-array name="country_codes">
+        <item>Select</item>
+        <item>+91</item>
+        <item>+44</item>
+        <item>+65</item>
+    </string-array>
+</resources>

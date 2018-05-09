@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Opetbot.iml" filepath="$PROJECT_DIR$/Opetbot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cropper/cropper.iml" filepath="$PROJECT_DIR$/cropper/cropper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialogflow/dialogflow.iml" filepath="$PROJECT_DIR$/dialogflow/dialogflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-list-animation/library-list-animation.iml" filepath="$PROJECT_DIR$/library-list-animation/library-list-animation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navigationtabbar/navigationtabbar.iml" filepath="$PROJECT_DIR$/navigationtabbar/navigationtabbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/preview-android/preview-android.iml" filepath="$PROJECT_DIR$/preview-android/preview-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-start/quick-start.iml" filepath="$PROJECT_DIR$/quick-start/quick-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resideMenu/resideMenu.iml" filepath="$PROJECT_DIR$/resideMenu/resideMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tess-two/tess-two.iml" filepath="$PROJECT_DIR$/tess-two/tess-two.iml" />
+    </modules>
+  </component>
+</project>

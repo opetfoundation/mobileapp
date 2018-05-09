@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?><!--item_other_message.xml- for bot message -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <me.himanshusoni.chatmessageview.ChatMessageView
+        android:id="@+id/chatMessageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/bubble_sent" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_receive_data"
+                android:padding="10dp"
+                android:text="Hello"
+                android:textSize="20sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </me.himanshusoni.chatmessageview.ChatMessageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+    >
+        <CheckBox
+            android:id="@+id/tag1"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"
+            android:text="Yes, remind me :)"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:button="@android:color/transparent"
+            android:background="@drawable/tag_rounded_corner_white">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/tag2"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            android:text="No, I’m busy!"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:button="@android:color/transparent"
+            android:background="@drawable/tag_rounded_corner_white">
+
+        </CheckBox>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.opetbot.ChannelActivity">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+
+            />
+
+        <Button
+            android:id="@+id/btn_end_quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent"
+            android:padding="5dp"
+            android:text="End Quiz"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>
